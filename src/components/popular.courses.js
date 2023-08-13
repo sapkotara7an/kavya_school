@@ -40,7 +40,7 @@ const PopularCourses = () => {
       </Card.Body>
             </Card>
 
-            <Card className="col-lg-4 col-sm-12">
+            <Card className="col-lg-4 col-sm-12 col-xs-12">
       <Card.Img variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu7xxu2cXKH-DFdqsyZJdnqC3Ue1zbUZUwNQ&usqp=CAU" />
       <Card.Body>
         <Card.Title>Journalism and Public Relation Courses

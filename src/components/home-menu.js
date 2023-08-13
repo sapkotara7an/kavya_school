@@ -31,7 +31,7 @@ const HomeMenu= () =>{
                     <img width='150px' src='https://kavya.edu.np/images/background/logo_kavya.png' alt='/'/>
                 </Col>
 
-                <Col lg={4} sm={4} >
+                <Col lg={3} sm={6} >
                    <Form>
                     <Form.Group className='input-group'>
                     <Form.Control placeholder='search our courses...' style={{borderRadius:'10px 0px 0px 10px'}} />
@@ -48,10 +48,11 @@ const HomeMenu= () =>{
                     <p style={{color:'grey', fontSize:'14px' }}>from 8:00 to 21:00 (Mon-Sun) </p>
                 </Col>
 
-                <Col lg={2}style={{display:'inline-flex', fontSize:'18px', }} className='gap-4' >
+                <Col lg={3}style={{display:'inline-flex', fontSize:'18px', }} className='gap-4' >
                
                     <NavLink to='login'><FaRegUser className='text-success'/> Student Login</NavLink>
                     <NavLink to='register'>Register</NavLink>
+                    <NavLink to='/'>Exit</NavLink>
                      
                        
                    
@@ -67,14 +68,14 @@ const HomeMenu= () =>{
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto gap-5 "  >
-            <NavLink className='' to='/'>Home</NavLink>
+            <NavLink className='' to='/homepage'>Home</NavLink>
             <NavLink to='/error'>Admission</NavLink>
             <NavLink to='/error' >Curriculam
           </NavLink>
             <NavLink to='/error' >About US</NavLink>
             <NavLink to='/error'>Activities</NavLink>
             <NavLink to='/error'>News</NavLink>
-            <NavLink to='/error'>Contact</NavLink>
+            <NavLink to='/erro'>Contact</NavLink>
            
 
           </Nav>
